@@ -97,3 +97,18 @@ a.voltar{
     padding: 10px;
     margin: 3px;
 }
+div.voltar > a{
+
+    padding: 20px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration:none;
+    text-align: center;    
+    position: absolute;
+    width: 100%;
+    color: black;    
+} 
+div.voltar:hover > a{
+    color: green;    
+}
